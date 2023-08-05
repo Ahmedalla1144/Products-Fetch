@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+body {
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(141, 141, 108);
+}
+body > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.details {
+  border-radius: 10px;
+  background-color: rgb(189, 189, 147);
+  padding: 10px;
+  width: 250px;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+img {
+  margin-left: 10px;
+  width: 200px;
+}
+span {
+  color: rgb(117, 27, 27);
+}
+button {
+  border: none;
+  width: 70px;
+  height: 25px;
+  border-radius: 7px;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(83, 79, 71);
+}
+.button {
+  padding-left: 150px;
+}
