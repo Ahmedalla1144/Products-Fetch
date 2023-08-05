@@ -46,6 +46,7 @@ button {
   font-weight: 600;
   color: white;
   background-color: rgb(83, 79, 71);
+  cursor: pointer;
 }
 .button {
   display: flex;
@@ -56,7 +57,7 @@ footer {
   justify-content: space-between;
   padding-left: 10px;
   margin-top: 5px;
-  font-size: 14px;
+  font-size: 13px;
   background-color: rgb(189, 189, 147);
 }
 #clock {
@@ -64,41 +65,46 @@ footer {
   gap: 10px;
   padding: 0px 15px 5px 0px;
 }
-a {
+#down,
+#up {
   color: black;
   border-radius: 50%;
   background-color: brown;
+  border: solid white 2px;
   width: 24px;
   height: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
-  opacity: 0.3;
   text-decoration: none;
-  border: solid white 2px;
-}
-a:hover {
-  opacity: 1;
-  cursor: pointer;
-}
-.fa-arrow-down {
-  bottom: 30px;
+  opacity: 0.3;
+  position: fixed;
   right: 8px;
 }
-.fa-arrow-up {
-  bottom:70px;
-  right:8px;
+#up {
+  bottom: 60px;
+}
+#down {
+  bottom: 30px;
+}
+#down:hover,
+#up:hover {
+  opacity: 1;
+  cursor: pointer;
 }
 .span {
   display: none;
 }
 @media (min-width: 1024px) {
-  a {
+  #down,
+  #up {
     width: 35px;
     height: 35px;
     bottom: 30px;
     right: 30px;
+  }
+  #up {
+    bottom: 70px;
   }
   footer {
     font-size: 16px;
