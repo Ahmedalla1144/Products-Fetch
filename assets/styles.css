@@ -74,8 +74,6 @@ a {
   justify-content: center;
   align-items: center;
   position: fixed;
-  bottom: 30px;
-  right: 8px;
   opacity: 0.3;
   text-decoration: none;
   border: solid white 2px;
@@ -83,6 +81,14 @@ a {
 a:hover {
   opacity: 1;
   cursor: pointer;
+}
+.fa-arrow-down {
+  bottom: 30px;
+  right: 8px;
+}
+.fa-arrow-up {
+  bottom:70px;
+  right:8px;
 }
 .span {
   display: none;
