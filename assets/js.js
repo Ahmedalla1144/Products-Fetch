@@ -13,7 +13,7 @@ const show_products = function ({
 }) {
   container.innerHTML += `
     <div class="details">
-        <div>
+        <div class="fotorama">
             <img src="${thumbnail}" alt="${id}" />
         </div>
   
