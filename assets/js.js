@@ -15,6 +15,8 @@ const show_products = function ({
     <div class="details">
         <div class="fotorama">
             <img src="${thumbnail}" alt="${id}" />
+            <img src="${thumbnail}" alt="${id}" />
+            <img src="${thumbnail}" alt="${id}" />
         </div>
   
         <div class="detail">
