@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+body {
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(141, 141, 108);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo > a,
+i > span {
+  color: brown;
+  text-decoration: none;
+}
+.logo a:hover {
+  color: blue;
+}
+
+#product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 10px;
+  gap: 15px;
+}
+@media (min-width: 1024px) {
+  .details {
+    border: white 1px solid;
+  }
+}
+
+.details {
+  border-radius: 10px;
+  background-color: rgb(189, 189, 147);
+  padding: 10px;
+  /* width: 250px; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.fotoram {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+  gap: 10px;
+}
+.fotoram > img {
+  width: 200px;
+  object-fit: cover;
+}
+.detail {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}
+span {
+  color: rgb(117, 27, 27);
+}
+button {
+  border: none;
+  width: 70px;
+  height: 25px;
+  border-radius: 7px;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(83, 79, 71);
+  cursor: pointer;
+}
+button:hover {
+  background-color: brown;
+  color: white;
+}
+.button {
+  display: flex;
+  justify-content: flex-end;
+}
